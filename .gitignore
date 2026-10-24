@@ -1,0 +1,21 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Dataset files (large)
+data/*.csv
+
+# Trained model files
+models/*.joblib
+models/*.pkl
+
+# Secrets and local configuration
+.env
+
+# Editor/system files
+.vscode/
+.DS_Store
